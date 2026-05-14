@@ -14,7 +14,7 @@ export default function AboutPage() {
             About <span className="text-gradient">Me</span>
           </h1>
           <p className="text-xl text-white/60 max-w-3xl mb-20 leading-relaxed">
-            I'm a Full Stack Engineer who is passionate about crafting beautiful, scalable, and highly performant applications. With a strong foundation in backend architecture and an eye for premium design, I build systems that not only work flawlessly but look incredible.
+            I'm a Full Stack Engineer with ~3 years of experience building scalable SaaS platforms, real-time systems, and AI-powered applications. Specialized in backend architecture, WebSockets, and payment systems, with a strong focus on performance, scalability, and production-grade systems.
           </p>
         </FadeIn>
 
@@ -36,12 +36,12 @@ export default function AboutPage() {
             <StaggerItem>
               <h2 className="text-3xl font-bold mb-4">My Journey</h2>
               <p className="text-white/60 leading-relaxed">
-                Starting out as a frontend developer, I quickly realized my passion for building the underlying engines that power web applications. Over the years, I've transitioned into a Full Stack role, specializing in Node.js, Next.js, and real-time systems.
+                I have a strong foundation in MERN stack development and have transitioned into advanced Full Stack roles. Over my career, I've led development on multi-tool SaaS platforms, high-frequency Bitcoin mining processing systems, and real-time trading platforms.
               </p>
             </StaggerItem>
             <StaggerItem>
               <p className="text-white/60 leading-relaxed">
-                I've helped startups scale their SaaS platforms, engineered trading systems handling complex transactions, and integrated cutting-edge AI models to automate workflows.
+                Whether it's integrating AI-based image generation workflows, handling thousands of concurrent real-time events via Socket.IO, or optimizing REST API response times, my focus is always on delivering robust and highly optimized digital solutions.
               </p>
             </StaggerItem>
 

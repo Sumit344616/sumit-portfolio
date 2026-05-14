@@ -8,7 +8,7 @@ import { Copy, Mail, MapPin, Send, Check } from "lucide-react";
 export default function ContactPage() {
   const [copied, setCopied] = useState(false);
   const [formStatus, setFormStatus] = useState<"idle" | "submitting" | "success">("idle");
-  const email = "hello@sumitbaroliya.dev";
+  const email = "sadhusumit30@gmail.com";
 
   const handleCopy = () => {
     navigator.clipboard.writeText(email);
@@ -72,7 +72,7 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <p className="text-sm text-white/50 mb-1">Location</p>
-                    <p className="font-medium">India (Remote Available)</p>
+                    <p className="font-medium">Ahmedabad, India</p>
                   </div>
                 </div>
               </div>

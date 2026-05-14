@@ -17,7 +17,7 @@ export function Footer() {
 
         <div className="flex items-center gap-4">
           <a
-            href="#"
+            href="https://github.com/Sumit344616"
             target="_blank"
             rel="noreferrer"
             className="p-2 rounded-full bg-white/5 text-white/70 hover:text-white hover:bg-primary/20 transition-all hover-glow"
@@ -26,7 +26,7 @@ export function Footer() {
             <span className="sr-only">GitHub</span>
           </a>
           <a
-            href="#"
+            href="https://linkedin.com/in/sumit-baroliya-983041216"
             target="_blank"
             rel="noreferrer"
             className="p-2 rounded-full bg-white/5 text-white/70 hover:text-white hover:bg-primary/20 transition-all hover-glow"
@@ -35,16 +35,7 @@ export function Footer() {
             <span className="sr-only">LinkedIn</span>
           </a>
           <a
-            href="#"
-            target="_blank"
-            rel="noreferrer"
-            className="p-2 rounded-full bg-white/5 text-white/70 hover:text-white hover:bg-primary/20 transition-all hover-glow"
-          >
-            <Twitter size={20} />
-            <span className="sr-only">Twitter</span>
-          </a>
-          <a
-            href="mailto:hello@example.com"
+            href="mailto:sadhusumit30@gmail.com"
             className="p-2 rounded-full bg-white/5 text-white/70 hover:text-white hover:bg-primary/20 transition-all hover-glow"
           >
             <Mail size={20} />

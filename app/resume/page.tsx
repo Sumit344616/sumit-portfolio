@@ -2,7 +2,7 @@
 
 import { FadeIn } from "@/components/animations/fade-in";
 import { MagneticButton } from "@/components/ui/magnetic-button";
-import { Download, FileText } from "lucide-react";
+import { Download, FileText, GraduationCap } from "lucide-react";
 
 export default function ResumePage() {
   return (
@@ -33,13 +33,15 @@ export default function ResumePage() {
               <h2 className="text-3xl font-bold mb-2">Sumit Baroliya</h2>
               <p className="text-primary text-lg mb-4">Full Stack Engineer</p>
               <div className="flex flex-wrap justify-center md:justify-start gap-4 text-sm text-white/60">
-                <span>hello@sumitbaroliya.dev</span>
+                <span>sadhusumit30@gmail.com</span>
                 <span className="hidden md:inline">•</span>
-                <span>India</span>
+                <span>+91 6353899544</span>
                 <span className="hidden md:inline">•</span>
-                <a href="#" className="hover:text-primary transition-colors">github.com/sumit</a>
+                <span>Ahmedabad, India</span>
                 <span className="hidden md:inline">•</span>
-                <a href="#" className="hover:text-primary transition-colors">linkedin.com/in/sumit</a>
+                <a href="https://github.com/Sumit344616" target="_blank" rel="noreferrer" className="hover:text-primary transition-colors">github.com/Sumit344616</a>
+                <span className="hidden md:inline">•</span>
+                <a href="https://linkedin.com/in/sumit-baroliya-983041216" target="_blank" rel="noreferrer" className="hover:text-primary transition-colors">linkedin.com/in/sumit-baroliya</a>
               </div>
             </div>
 
@@ -50,7 +52,7 @@ export default function ResumePage() {
                   <FileText className="w-5 h-5 mr-2 text-white/50" /> Profile
                 </h3>
                 <p className="text-white/70 leading-relaxed pl-4">
-                  Results-driven Full Stack Engineer with extensive experience in building scalable SaaS platforms, real-time communication systems, and integrating AI models. Proven track record of optimizing backend architectures and delivering premium frontend experiences.
+                  Full Stack Engineer with ~3 years of experience building scalable SaaS platforms, real-time systems, and AI-powered applications. Specialized in backend architecture, WebSockets, and payment systems, with a strong focus on performance, scalability, and production-grade systems.
                 </p>
               </section>
 
@@ -61,26 +63,44 @@ export default function ResumePage() {
                 <div className="space-y-8 pl-4">
                   <div>
                     <div className="flex justify-between items-start mb-2">
-                      <h4 className="font-bold text-lg">Sourceved Technologies</h4>
-                      <span className="text-sm text-primary">2023 - Present</span>
+                      <h4 className="font-bold text-lg">Unikwork</h4>
+                      <span className="text-sm text-primary whitespace-nowrap ml-4">Oct 2025 - Mar 2026</span>
                     </div>
                     <p className="text-white/70 mb-2 text-sm italic">Full Stack Engineer</p>
                     <ul className="list-disc list-outside ml-4 space-y-1 text-sm text-white/60">
-                      <li>Engineered real-time systems using WebSockets for a high-traffic trading platform.</li>
-                      <li>Optimized API response times by 40% utilizing Redis caching and database indexing.</li>
-                      <li>Mentored junior developers and established automated CI/CD pipelines.</li>
+                      <li>Developed real-time backend systems using Socket.IO handling thousands of concurrent real-time events.</li>
+                      <li>Built backend solutions for property and diamond trading platforms.</li>
+                      <li>Engineered high-frequency processing systems for Bitcoin mining.</li>
+                      <li>Integrated AI-based image generation via external APIs.</li>
+                      <li>Improved API response time by ~30% through query optimization.</li>
+                      <li>Implemented IAP webhook systems for Android & iOS.</li>
                     </ul>
                   </div>
 
                   <div>
                     <div className="flex justify-between items-start mb-2">
                       <h4 className="font-bold text-lg">Vasundhara Infotech</h4>
-                      <span className="text-sm text-primary">2021 - 2023</span>
+                      <span className="text-sm text-primary whitespace-nowrap ml-4">Feb 2024 - Sep 2025</span>
                     </div>
-                    <p className="text-white/70 mb-2 text-sm italic">Backend Developer</p>
+                    <p className="text-white/70 mb-2 text-sm italic">Full Stack Developer</p>
                     <ul className="list-disc list-outside ml-4 space-y-1 text-sm text-white/60">
-                      <li>Designed and deployed microservices architecture using Node.js and Docker.</li>
-                      <li>Integrated OpenAI API for automated content generation workflows.</li>
+                      <li>Built and scaled MERN-based SaaS and e-commerce platforms used in production environments.</li>
+                      <li>Designed and developed high-performance REST APIs for scalable applications.</li>
+                      <li>Implemented authentication systems, social logins, and push notifications (Firebase).</li>
+                      <li>Built webhook-based payment systems supporting mobile platforms (iOS & Android).</li>
+                      <li>Developed real-time chat systems using WebSockets, improving user interaction.</li>
+                      <li>Led a team of 3–4 developers, delivering multiple production-ready applications end-to-end.</li>
+                    </ul>
+                  </div>
+
+                  <div>
+                    <div className="flex justify-between items-start mb-2">
+                      <h4 className="font-bold text-lg">Sourceved Technologies</h4>
+                      <span className="text-sm text-primary whitespace-nowrap ml-4">May 2023 - Feb 2024</span>
+                    </div>
+                    <p className="text-white/70 mb-2 text-sm italic">MERN Stack Developer</p>
+                    <ul className="list-disc list-outside ml-4 space-y-1 text-sm text-white/60">
+                      <li>Worked on backend APIs and full-stack features in production applications.</li>
                     </ul>
                   </div>
                 </div>
@@ -92,19 +112,40 @@ export default function ResumePage() {
                 </h3>
                 <div className="pl-4 grid grid-cols-1 md:grid-cols-2 gap-4 text-sm">
                   <div>
-                    <strong className="text-white block mb-1">Languages & Frontend:</strong>
-                    <span className="text-white/60">JavaScript, TypeScript, React.js, Next.js, Tailwind CSS, Framer Motion</span>
+                    <strong className="text-white block mb-1">Languages & Frameworks:</strong>
+                    <span className="text-white/60">Node.js, Express.js, React.js, Next.js, JavaScript</span>
                   </div>
                   <div>
-                    <strong className="text-white block mb-1">Backend & Database:</strong>
-                    <span className="text-white/60">Node.js, Express.js, MongoDB, PostgreSQL, Redis, Socket.IO</span>
+                    <strong className="text-white block mb-1">Real-time & Systems:</strong>
+                    <span className="text-white/60">Socket.IO, Webhooks, REST APIs, Authentication</span>
                   </div>
                   <div>
-                    <strong className="text-white block mb-1">Tools & Cloud:</strong>
-                    <span className="text-white/60">Git, Docker, AWS, Firebase, CI/CD</span>
+                    <strong className="text-white block mb-1">Databases:</strong>
+                    <span className="text-white/60">MongoDB, MySQL, PostgreSQL</span>
+                  </div>
+                  <div>
+                    <strong className="text-white block mb-1">Tools & Platforms:</strong>
+                    <span className="text-white/60">Firebase, Git, GitHub, VS Code, Cursor</span>
                   </div>
                 </div>
               </section>
+
+              <section>
+                <h3 className="text-xl font-bold border-l-4 border-green-400 pl-4 mb-6 flex items-center">
+                  <GraduationCap className="w-5 h-5 mr-2 text-white/50" /> Education
+                </h3>
+                <div className="space-y-4 pl-4">
+                  <div>
+                    <div className="flex justify-between items-start mb-1">
+                      <h4 className="font-bold text-lg">C.U. Shah University</h4>
+                      <span className="text-sm text-primary whitespace-nowrap ml-4">2020 - 2023</span>
+                    </div>
+                    <p className="text-white/70 text-sm">B.IT — Information Technology</p>
+                    <p className="text-white/60 text-sm mt-1">CGPA: 8.45</p>
+                  </div>
+                </div>
+              </section>
+
             </div>
           </div>
         </FadeIn>

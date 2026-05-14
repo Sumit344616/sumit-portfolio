@@ -38,7 +38,7 @@ export default function Home() {
 
             <StaggerItem>
               <p className="text-lg md:text-xl text-white/60 mb-10 max-w-2xl leading-relaxed">
-                Building scalable SaaS platforms, real-time systems, and AI-powered applications with modern technologies and clean architecture.
+                Building scalable SaaS platforms, real-time systems, and AI-powered applications. Specialized in backend architecture and WebSockets.
               </p>
             </StaggerItem>
 
@@ -56,9 +56,9 @@ export default function Home() {
             </StaggerItem>
 
             <StaggerItem className="flex items-center gap-6 mt-12">
-              <a href="#" className="text-white/50 hover:text-white transition-colors hover-glow p-2"><Github /></a>
-              <a href="#" className="text-white/50 hover:text-primary transition-colors hover-glow p-2"><Linkedin /></a>
-              <a href="#" className="text-white/50 hover:text-purple-400 transition-colors hover-glow p-2"><Mail /></a>
+              <a href="https://github.com/Sumit344616" target="_blank" rel="noreferrer" className="text-white/50 hover:text-white transition-colors hover-glow p-2"><Github /></a>
+              <a href="https://linkedin.com/in/sumit-baroliya-983041216" target="_blank" rel="noreferrer" className="text-white/50 hover:text-primary transition-colors hover-glow p-2"><Linkedin /></a>
+              <a href="mailto:sadhusumit30@gmail.com" className="text-white/50 hover:text-purple-400 transition-colors hover-glow p-2"><Mail /></a>
             </StaggerItem>
           </StaggerContainer>
         </div>
