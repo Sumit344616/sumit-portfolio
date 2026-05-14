@@ -1,6 +1,6 @@
 "use client";
 
-import { motion } from "framer-motion";
+import { motion, Variants } from "framer-motion";
 import { ReactNode } from "react";
 
 interface StaggerContainerProps {
@@ -16,7 +16,7 @@ export function StaggerContainer({
   staggerChildren = 0.1,
   className = "",
 }: StaggerContainerProps) {
-  const containerVariants = {
+  const containerVariants: Variants = {
     hidden: {},
     show: {
       transition: {
@@ -40,7 +40,7 @@ export function StaggerContainer({
 }
 
 export function StaggerItem({ children, className = "" }: { children: ReactNode; className?: string }) {
-  const itemVariants = {
+  const itemVariants: Variants = {
     hidden: { opacity: 0, y: 20 },
     show: { 
       opacity: 1, 
